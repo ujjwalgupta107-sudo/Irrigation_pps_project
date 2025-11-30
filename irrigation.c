@@ -71,7 +71,16 @@ void apply_rainfall(Farm *f, float rainfall_mm) {
     }
 }
 
-//
+/* ----- Crop coefficient & water calculation ----- */
+float crop_coefficient(const char *crop) {
+    /* Example coefficients (arbitrary for project) */
+    if (strcasestr_custom(crop, "rice")) return 1.2f;
+    if (strcasestr_custom(crop, "wheat")) return 0.6f;
+    if (strcasestr_custom(crop, "maize") || strcasestr_custom(crop, "corn")) return 0.7f;
+    if (strcasestr_custom(crop, "sugar")) return 1.1f;
+    /* default */
+    return 0.8f;
+}
 
 float compute_water_liters(const Plot *p) {
     /* Simple model:
