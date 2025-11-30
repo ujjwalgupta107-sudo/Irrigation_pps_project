@@ -81,6 +81,12 @@ This matches CO1 to CO5 given in the project file.
 8. Show Events
 9. Exit
 
+👥 Group Members of this project
+1. Ujwal
+2. Kishan
+3. Anshika
+4. Ayush
+
 👥 Group Members Contribution (for GitHub commits)
 
 To show equal contribution, each member can:
