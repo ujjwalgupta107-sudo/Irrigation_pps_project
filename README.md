@@ -3,7 +3,7 @@ Precision Irrigation Scheduler – PPS Mini Project (C Programming)
 Semester 1 – Problem Solving & Programming in C (PPS)
 
 This project is a console-based Precision Irrigation Scheduler designed to help farmers manage irrigation using soil moisture, crop type, rainfall, and water requirements.
-It uses C programming concepts such as structures, pointers, arrays, dynamic memory, and modular programming.
+It uses C programming concepts such as structures, pointers, arrays, dynamic memory, and modular programming.THis is a beginner level C- project created in the first semester 
 Project Features:
 - Add farm plots with crop details
 - Update soil moisture (sensor simulation)
