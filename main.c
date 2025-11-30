@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "irrigation.h"
-
+// used void function instead of main.
 void print_menu() {
     printf("\n--- Precision Irrigation Scheduler ---\n"); // From here we will get input of all the details required in the project.
     printf("1. Add plot\n");
