@@ -3,6 +3,19 @@
 #include <string.h>
 #include "irrigation.h"
 
+void print_menu() {
+    printf("\n--- Precision Irrigation Scheduler ---\n"); // From here we will get input of all the details required in the project.
+    printf("1. Add plot\n");
+    printf("2. List plots\n");
+    printf("3. Update plot moisture\n");
+    printf("4. Apply rainfall (simulated)\n");
+    printf("5. Generate daily plan (today)\n");
+    printf("6. Generate weekly plan (7 days)\n");
+    printf("7. What-if simulation (limited water)\n");
+    printf("8. Show scheduled events\n");
+    printf("9. Exit\n");
+    printf("Choose option: "); 
+}
 
 int main() {
     Farm farm;
