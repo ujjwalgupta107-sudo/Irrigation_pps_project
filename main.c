@@ -26,7 +26,7 @@ int main() {
     add_plot(&farm, "Rice", 0.3f, 70.0f, 75.0f, 0);
     add_plot(&farm, "Maize", 0.2f, 25.0f, 45.0f, 0);
 
-    int choice;
+    int choice; //Need choice input from the user
     while (1) {
         print_menu();
         if (scanf("%d", &choice) != 1) {
