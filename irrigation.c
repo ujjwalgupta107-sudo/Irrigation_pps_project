@@ -19,7 +19,6 @@ char *strcasestr_custom(const char *haystack, const char *needle) {
 }
 // code ends
 
-
 /* ----- Initialization ----- */
 void farm_init(Farm *f) {
     f->plotCount = 0;
