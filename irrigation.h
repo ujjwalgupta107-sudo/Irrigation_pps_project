@@ -6,7 +6,7 @@
 
 typedef struct Plot {
     int id;
-    char crop[MAX_CROP_NAME];
+    char crop[MAX_CROP_NAME];   //main code
     float area;                // in hectares
     float moisture;            // current moisture % (0-100)
     float moistureThreshold;   // threshold % below which irrigation required
