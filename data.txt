@@ -1,0 +1,4 @@
+# CSV: id,crop,area,moisture,threshold,lastIrrDay
+1,Wheat,0.5,30.0,50.0,0
+2,Rice,0.3,70.0,75.0,0
+3,Maize,0.2,25.0,45.0,0
