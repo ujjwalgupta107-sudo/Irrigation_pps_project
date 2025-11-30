@@ -14,12 +14,7 @@ typedef struct Plot {
 } Plot;
 
 /* Node for dynamic irrigation events (pointer usage) */
-typedef struct EventNode {
-    int day;
-    int plotId;
-    float waterLiters;
-    struct EventNode *next;
-} EventNode;
+
 
 /* Farm container */
 typedef struct Farm {
