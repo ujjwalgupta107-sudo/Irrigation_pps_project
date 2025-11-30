@@ -1,76 +1,33 @@
-PPS Mini Project – C Programming (Sem 1)
+Precision Irrigation Scheduler – PPS Mini Project (C Programming)
 
-This is our group’s PPS project where we made a farm irrigation scheduler system in C.
-The project simulates how farmers decide when to irrigate crops based on:
+Semester 1 – Problem Solving & Programming in C (PPS)
 
-Soil moisture
+This project is a console-based Precision Irrigation Scheduler designed to help farmers manage irrigation using soil moisture, crop type, rainfall, and water requirements.
+It uses C programming concepts such as structures, pointers, arrays, dynamic memory, and modular programming.
 
-Crop type
+Project Features:
+- Add farm plots with crop details
+- Update soil moisture (sensor simulation)
+- Simulate rainfall
+- Calculate water requirement
+- Generate Daily & Weekly Irrigation Plans
+- What-if simulation under limited water
+- Event logging using a linked list
+- Uses arrays, structures, pointers, dynamic memory, functions
 
-Moisture threshold
+Project Folder:
+main.c
+irrigation.c
+irrigation.h
+README.md
 
-Water requirement
+How to Run:
+1. Install GCC Compiler (MSYS2 recommended)
+2. Open folder in VS Code
+3. Compile using: gcc main.c irrigation.c -o irrigation.exe
+4. Run using: ./irrigation
 
-Simple daily/weekly irrigation schedule
-
-We made this completely in C language using VS Code, and the program runs in terminal/console only (no website or UI).
-
-📌 Project Features
-
-✔ Add farm plots with crop details
-✔ Update soil moisture (sensor simulation)
-✔ Simulate rainfall
-✔ Calculate how much water each plot needs
-✔ Generate Daily Irrigation Plan
-✔ Generate Weekly Irrigation Plan
-✔ “What-if” simulation for limited water supply
-✔ Store irrigation events using linked list
-✔ Uses arrays, structures, pointers, functions, dynamic memory
-
-This project covers almost all syllabus topics of PPS.
-
-📂 Folder Structure
-/project-folder
-│
-├── main.c
-├── irrigation.c
-├── irrigation.h
-└── README.md
-
-⚙️ How to Run the Project (beginner steps)
-1. Install compiler
-
-We used MSYS2 → gcc (recommended for Windows + VS Code).
-
-2. Open the project folder in VS Code
-3. Compile the project
-
-Open terminal in VS Code and run:
-
-gcc main.c irrigation.c -o irrigation.exe
-
-4. Run the program
-./irrigation.exe
-
-🧠 Things We Used From C Syllabus
-
-structures → to store each farm plot
-
-arrays → list of plots
-
-pointers → linked list for irrigation events
-
-dynamic memory (malloc) → for event nodes
-
-functions → water calculation, scheduling, sensor updates
-
-decision making → checking moisture threshold
-
-loops → to process multiple plots
-
-This matches CO1 to CO5 given in the project file.
-
-🧪 Sample Output (Short)
+Sample Menu:
 1. Add Plot
 2. List Plots
 3. Update Moisture
@@ -78,32 +35,15 @@ This matches CO1 to CO5 given in the project file.
 5. Generate Daily Plan
 6. Generate Weekly Plan
 7. What-if Simulation
-8. Show Events
+8. Show Irrigation Events
 9. Exit
 
-👥 Group Members of this project
-1. Ujwal
-2. Kishan
-3. Anshika
-4. Ayush
+Group Members:
+Ujjwal Gupta
+Kishan Verma
+Anshika Mishra
+Ayush Kumar
 
-👥 Group Members Contribution (for GitHub commits)
+Conclusion:
+This project demonstrates how C programming can solve real-life farm irrigation problems using core concepts of PPS, such as loops, conditions, arrays, structures, pointers, and dynamic memory.
 
-To show equal contribution, each member can:
-
-Edit small parts (comments, variable name changes)
-
-Add simple functions (like print menu, validations)
-
-Update README
-
-Push sample input files
-
-Test and commit bug fixes
-
-Important: Every member must push something to GitHub so commits appear.
-
-🎯 Conclusion
-
-This project helps us understand how C programming can solve real-life farm problems such as irrigation management.
-We used all basic concepts of C and made the program modular using multiple .c and .h files.
