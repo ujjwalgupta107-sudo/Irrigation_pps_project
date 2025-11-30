@@ -4,7 +4,7 @@
 #include "irrigation.h"
 
 void print_menu() {
-    printf("\n--- Precision Irrigation Scheduler ---\n");
+    printf("\n--- Precision Irrigation Scheduler ---\n"); // From here we will get input of all the details required in project.
     printf("1. Add plot\n");
     printf("2. List plots\n");
     printf("3. Update plot moisture\n");
@@ -14,7 +14,7 @@ void print_menu() {
     printf("7. What-if simulation (limited water)\n");
     printf("8. Show scheduled events\n");
     printf("9. Exit\n");
-    printf("Choose option: ");
+    printf("Choose option: "); 
 }
 
 int main() {
