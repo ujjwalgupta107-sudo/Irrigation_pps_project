@@ -14,7 +14,7 @@ void print_menu() {
     printf("7. What-if simulation (limited water)\n");
     printf("8. Show scheduled events\n");
     printf("9. Exit\n");
-    printf("Choose option: "); 
+    printf("Choose option: "); // These are all the info that we need.
 }
 
 int main() {
