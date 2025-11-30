@@ -3,20 +3,6 @@
 #include <string.h>
 #include "irrigation.h"
 
-// Windows (MinGW) does NOT provide strcasestr, so we define it manually
-char *strcasestr_custom(const char *haystack, const char *needle) {
-    if (!haystack || !needle) return NULL;
-
-    size_t needle_len = strlen(needle);
-    if (needle_len == 0) return (char *)haystack;
-
-    while (*haystack) {
-        if (strncasecmp(haystack, needle, needle_len) == 0)
-            return (char *)haystack;
-        haystack++;
-    }
-    return NULL;
-}
 
 
 /* ----- Initialization ----- */
