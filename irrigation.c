@@ -17,6 +17,7 @@ char *strcasestr_custom(const char *haystack, const char *needle) {
     }
     return NULL;
 }
+// code ends
 
 
 /* ----- Initialization ----- */
