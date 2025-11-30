@@ -37,13 +37,13 @@ Sample Menu:
 8. Show Irrigation Events
 9. Exit
 
-_______________
+
 Group Members:
 Ujjwal Gupta
 Kishan Verma
 Anshika Mishra
 Ayush Kumar
-________________
+
 Conclusion:
 This project demonstrates how C programming can solve real-life farm irrigation problems using core concepts of PPS, such as loops, conditions, arrays, structures, pointers, and dynamic memory.
 
