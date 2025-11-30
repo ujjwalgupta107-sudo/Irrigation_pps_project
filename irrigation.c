@@ -187,7 +187,10 @@ void sort_plots_by_priority(Plot arr[], int n) {
     qsort(arr, n, sizeof(Plot), compare_priority);
 }
 
-/* ----- What-if simulation ----- */
+ /* ---------------------------------------------------------
+   What-if Simulation:
+   Distribute limited water based on priority
+----------------------------------------------------------*/
 void what_if_simulation(Farm *f, float availableLiters) {
     printf("What-if: available water = %.2f L\n", availableLiters);
     if (availableLiters <= 0.0f) {
@@ -198,6 +201,8 @@ void what_if_simulation(Farm *f, float availableLiters) {
     /* Create a temporary array copy to sort by priority */
     Plot *copy = (Plot*) malloc(sizeof(Plot) * f->plotCount);
     for (int i=0;i<f->plotCount;i++) copy[i] = f->plots[i];
+
+     //Sort by moisture (Low moisture = Higher priority)
 
     sort_plots_by_priority(copy, f->plotCount);
 
