@@ -35,7 +35,7 @@ int main() {
             continue;
         }
         if (choice == 1) {   //new code added
-            char crop[MAX_CROP_NAME];
+            char crop[MAX_CROP_NAME]; //changes in this code
             float area, moisture, threshold;
             int lastDay;
             printf("Enter crop name: ");
