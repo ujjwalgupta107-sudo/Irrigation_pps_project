@@ -79,7 +79,7 @@ int main() {
         }
     }
 
-    free_events(&farm);
+    free_events(&farm);//changes in this code 
     printf("Exiting. Goodbye.\n");
     return 0;
 }
