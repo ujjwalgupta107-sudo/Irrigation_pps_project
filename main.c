@@ -34,7 +34,7 @@ int main() {
             printf("Invalid input\n");
             continue;
         }
-        if (choice == 1) {
+        if (choice == 1) {   //new code added
             char crop[MAX_CROP_NAME];
             float area, moisture, threshold;
             int lastDay;
