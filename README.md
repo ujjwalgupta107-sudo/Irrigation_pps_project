@@ -39,9 +39,9 @@ Sample Menu:
 
 
 Group Members:
-Ujjwal Gupta
-Kishan Verma
-Anshika Mishra
+Ujjwal Gupta,
+Kishan Verma,
+Anshika Mishra,
 Ayush Kumar
 
 Conclusion:
