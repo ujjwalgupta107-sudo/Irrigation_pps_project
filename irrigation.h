@@ -40,9 +40,7 @@ Plot* get_plot_by_id(Farm *f, int id);
 void update_moisture(Farm *f, int plotId, float newMoisture);
 void apply_rainfall(Farm *f, float rainfall_mm); /* simple model */
 
-/* Water requirement & coefficients */
-float crop_coefficient(const char *crop); /* returns coefficient */
-float compute_water_liters(const Plot *p); /* liters required */
+
 
 /* Scheduler & plans */
 void generate_daily_plan(Farm *f, int day);
