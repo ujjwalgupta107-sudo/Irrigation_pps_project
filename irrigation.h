@@ -21,7 +21,7 @@ typedef struct EventNode {
     struct EventNode *next;
 } EventNode;
 
-/* Farm container */
+/* Farm container  begins */
 typedef struct Farm {
     Plot plots[MAX_PLOTS];
     int plotCount;
