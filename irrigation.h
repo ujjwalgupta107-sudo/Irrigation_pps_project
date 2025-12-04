@@ -13,7 +13,7 @@ typedef struct Plot {
     int lastIrrigationDay;     // day count
 } Plot;
 
-/* Node for dynamic irrigation events (pointer usage) */
+/* Node for dynamic irrigation events(pointer usage) */
 typedef struct EventNode {
     int day;
     int plotId;
